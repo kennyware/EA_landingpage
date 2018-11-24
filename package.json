@@ -1,0 +1,16 @@
+{
+  "name": "encore_academy",
+  "version": "1.0.0",
+  "description": "Encore Academy website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "build-css": "node-sass scss/ -o dist/css",
+    "watch-css": "nodemon -e scss -x npm run build-css"
+  },
+  "author": "Kenny Ware",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}

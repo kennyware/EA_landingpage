@@ -1,0 +1,10 @@
+header {
+    background: #004b8d;
+    background: $header-gradient;
+    height: 50px;
+    padding: 0 10px;
+    
+    .logo {
+       margin-top: 10px;
+    }
+}

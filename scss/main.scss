@@ -1,0 +1,15 @@
+@import "partials/variables";
+@import "partials/header";
+@import "partials/content";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: $font-1;
+}

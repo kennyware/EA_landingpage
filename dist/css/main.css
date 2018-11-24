@@ -1,0 +1,230 @@
+header {
+  background: #004b8d;
+  background: linear-gradient(#005cb4, #004b8d);
+  height: 50px;
+  padding: 0 10px; }
+  header .logo {
+    margin-top: 10px; }
+
+.content {
+  color: #222; }
+
+.container {
+  max-width: 95%;
+  margin: 0 auto; }
+
+h1, h2, h3, h4, h5 {
+  color: #154063; }
+
+.img-placeholder {
+  background: #000; }
+
+.img-placeholder.personal {
+  border-radius: 50%;
+  height: 50px;
+  margin: auto;
+  width: 50px; }
+
+.capitalize {
+  text-transform: uppercase; }
+
+.important-text {
+  color: #154063; }
+
+.text-center {
+  margin: auto;
+  text-align: center; }
+
+.emphasis-1 {
+  color: #154063;
+  font-family: "Cinzel", "Arial", serif;
+  text-shadow: 0 0 black; }
+
+.emphasis-2 {
+  color: #8c7c5c;
+  font-family: "Cinzel", "Arial", serif; }
+
+.icon-wrapper {
+  background: #000;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px; }
+
+.banner {
+  overflow-y: hidden;
+  position: relative; }
+  .banner .banner-img {
+    height: auto;
+    width: 100%; }
+  .banner .banner-text {
+    display: none;
+    font-size: 2vw;
+    position: absolute;
+    right: 50px;
+    top: 25%; }
+  .banner .banner-overlay {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white 50%);
+    display: none;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%; }
+
+.banner-overlay.dark {
+  background: rgba(0, 0, 0, 0.05);
+  width: 100%; }
+
+.row {
+  display: flex; }
+  .row .item {
+    padding: 0 10px; }
+
+#call-to-action .banner-text {
+  margin: 20px 0; }
+
+#call-to-action .signup {
+  background-color: #004c8f;
+  color: #fff;
+  padding: 25px 0; }
+  #call-to-action .signup h2 {
+    color: #fff;
+    font-family: "Cinzel", "Arial", serif;
+    font-size: 2em; }
+  #call-to-action .signup form {
+    color: rgba(255, 255, 255, 0.5);
+    margin: auto;
+    max-width: 270px; }
+    #call-to-action .signup form .form-group {
+      margin: 20px 0; }
+      #call-to-action .signup form .form-group label {
+        font-weight: bold; }
+      #call-to-action .signup form .form-group input {
+        border: none;
+        border-radius: 5px;
+        font-size: 1.25em;
+        padding: 5px 2px;
+        width: 100%; }
+    #call-to-action .signup form .submit-btn {
+      background: #eda942;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+      display: block;
+      font-family: "Calibri";
+      font-weight: bold;
+      font-size: 1.5em;
+      margin: 20px auto;
+      padding: 10px 0;
+      width: 85%; }
+  #call-to-action .signup p {
+    width: 200px; }
+
+.banner-text .text {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  word-spacing: 0.2em; }
+  .banner-text .text p {
+    font-size: 0.6em; }
+  .banner-text .text .emphasis-2.x2 {
+    display: inline-block;
+    font-size: 2em;
+    margin: -10px; }
+
+.seperate {
+  border-bottom: 1px solid #aaa;
+  height: 1px;
+  margin: 20px auto;
+  min-width: 70px;
+  width: 25%; }
+
+#info .intro h2 {
+  color: #8c7c5c;
+  margin-top: 20px;
+  width: 50%; }
+
+#info .list {
+  margin-top: 50px; }
+
+#info .list .row {
+  margin: 20px 0; }
+
+#info .list .details h2 {
+  color: #004a8b;
+  width: 90%; }
+
+#info .testimonials {
+  margin-top: 50px;
+  text-align: center; }
+  #info .testimonials .caption {
+    color: #8c7c5c;
+    font-family: "Cinzel", "Arial", serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 20px auto;
+    width: 100vw;
+    max-width: 480px;
+    line-height: 20px;
+    text-shadow: 0 0 rgba(0, 0, 0, 0.5); }
+  #info .testimonials .identity {
+    color: #055fb4; }
+    #info .testimonials .identity span {
+      font-size: 1.25em;
+      text-shadow: 0 0 rgba(0, 0, 0, 0.5); }
+  #info .testimonials .selectors {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px; }
+    #info .testimonials .selectors .select {
+      background: rgba(60, 60, 60, 0.3);
+      border-radius: 50%;
+      height: 20px;
+      margin: 0 5px;
+      width: 20px; }
+      #info .testimonials .selectors .select .active {
+        background: #055fb4;
+        border-radius: 50%;
+        height: 10px;
+        margin: 25% auto;
+        width: 10px; }
+
+footer p {
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 50px; }
+
+@media only screen and (min-width: 765px) {
+  .banner {
+    height: 40vw; }
+    .banner .banner-text {
+      display: block; }
+    .banner .banner-overlay {
+      display: block; }
+    .banner .banner-img {
+      transform: translateX(-12%);
+      width: 90%; }
+  #call-to-action .banner-text {
+    display: none; } }
+
+@media only screen and (min-width: 1020px) {
+  #info .intro {
+    margin: 0 auto;
+    width: 90%; }
+  #call-to-action .signup {
+    float: right;
+    margin-left: 50px;
+    width: 350px; }
+  .container {
+    max-width: 90%; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Calibri"; }
